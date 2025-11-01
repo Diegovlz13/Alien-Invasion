@@ -4,8 +4,8 @@ class Settings:
     def __init__(self):
         """Inicializa la configuración del juego."""
         # Configuración de la pantalla
-        self.screen_width = 1200
-        self.screen_height = 800
+        self.screen_width = 800
+        self.screen_height = 600
         self.bg_color = (230, 230, 230) # Gris claro
         
         # Configuración de la nave
@@ -23,5 +23,8 @@ class Settings:
         self.fleet_drop_speed = 10
         # fleet_direction de 1 representa derecha; -1 representa izquiera
         self.fleet_direction = 1
+        
+        # Configuraciones de estadísticas
+        self.ship_limit = 3
         
         
